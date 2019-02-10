@@ -1,0 +1,9 @@
+webServer/Client.class
+webServer/Response.class
+webServer/BadRequestException.class
+webServer/WebSocketConnection.class
+webServer/Room.class
+webServer/Request.class
+webServer/main.class
+webServer/Message.class
+webServer/WebHTTPResponse.class

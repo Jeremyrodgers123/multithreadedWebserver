@@ -1,0 +1,93 @@
+#validation{
+    color: red;
+    margin: auto;
+    text-align: center;
+}
+#joinForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea{
+    font-size: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+}
+#joinForm > *{
+    padding: 10px;
+}
+
+#formLabel{
+    display: flex;
+    justify-content: center;
+    /* color:  rgb(133, 221, 0); */
+}
+
+body{
+   background-color: #eaeaea
+}
+#messageForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+#message{
+    width: 90%;
+    height: 20vh;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #2C6A8F;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+}
+
+input{
+    padding: 10px 0px;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    /* border: 1px solid goldenrod; */
+}
+.username{
+    padding: 10px;
+    display: inline-block;
+}
+.messageText{
+    display: inline-block;
+    width:40vw;
+    padding: 20px;
+    border-radius: 10px;
+}
+.currentUserMessage{
+    align-items: flex-start;
+}
+.otherUserMessage{
+    align-items: flex-end;
+    text-align: right;
+}
+.currentUserMessage .messageText{
+    background-color: rgb(90, 179, 231);
+    
+}
+.otherUserMessage .messageText{
+    background-color: rgb(175, 231, 90); 
+}
+#messageList{
+    display: none;
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid #aaaaaa;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    #joinForm{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Web Chat Client</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="topRow" style="margin: auto">
+        <h2 id="formLabel">Enter a username and a chat room:</h2>
+        <form id= "joinForm">
+            <label for= "username">Username:</label>
+            <input name = "username" id="username" type = "text"/>
+            <label for= "chatRoom">Chat Room:</label>
+            <input name = "chatRoom" id="chatRoom" type = "text"/>
+            <button class = "btn"> Join </button>
+        </form>
+        <p id="validation"></p>
+    </div>
+    <div id="messageList">
+
+    </div>
+</body>
+</html>
